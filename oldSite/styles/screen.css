@@ -1,0 +1,1006 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('../fonts/Chunkfive-webfont.eot');
+    src: url('../fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Chunkfive-webfont.woff') format('woff'),
+         url('../fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('../fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	
+	
+
+}
+
+html, body {
+
+	background:url(../images/headerbg1.jpg) repeat scroll center top #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	
+	border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#navigation {
+	
+	width: 100%;
+	box-shadow: 3px 2px 5px -3px #000000;
+
+	height: 46px;
+	padding-top: 0px;
+	
+
+	background: url(../images/navbg.png) repeat-x;
+	position:fixed;
+	top: 0px;
+	z-index:1001;
+	
+
+}
+
+#navigation-bar-content {
+	width: 960px;
+	height:46px;
+	margin: 0 auto;
+	
+}
+
+li#navlogo {
+	
+	
+	float: left;
+	
+	height:34px;
+	padding:0;
+	margin:6px 0 0 15px;
+	width: 77px;
+}
+
+div#navList a#nav1 {
+	font-family: 'ChunkFiveRegular',Arial,Sans-Serif;
+	font-size: 38px;
+	letter-spacing: -4px;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	font-family: 'Century Gothic', Futura, sans-serif;
+	padding-left: 130px;
+}
+
+nav a {
+	font-size: 18px;
+	padding-right: 15px;
+	color: #86919c;
+	text-decoration: none;
+}
+
+
+nav a:hover {
+	color: #FFF;
+} 
+
+
+.navUL {
+	margin: 0 auto;
+}
+
+nav a.current {
+	color: #fff;
+}
+
+
+div#navList {
+	
+	width: 100%;
+	color: #86919c;
+	height: 46px;
+	text-align: center;
+	padding-top: 0px;
+	
+	z-index: 100;
+	
+
+}
+
+div#navList li {
+	float: left;
+	list-style: none;
+	font-family: 'Century Gothic', Futura, sans-serif;
+	z-index: 1000;
+}
+
+div#navList li.reglist {
+	padding-left: 135px;
+	padding-top: 10px;
+}
+
+
+div#navList a {
+	font-size: 18px;
+	padding-right: 15px;
+	color: #69829c;
+	text-decoration: none;
+	text-shadow: 0 1px 2px black;
+}
+
+
+div#navList a:hover {
+	color: #FFF;
+} 
+
+#navList {
+    text-transform: uppercase;
+  
+    position: relative;
+	right: 0;
+    margin: 0px auto;
+    padding: 11px 0 0;
+    width: 940px;
+}
+
+.navUL {
+	right: 0;
+	z-index: 919;
+	
+}
+
+div#navList a.home {
+	color: #1b4169;
+	
+}
+
+div#navList a.current {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------
+		Begin Section 2: Work Styles
+--------------------------------------------------------*/
+
+#work-wrapper {
+	background: url("../images/workbglight.png") repeat scroll center top;
+}
+
+.work {
+	height: auto;
+	min-height: 986px;
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 90px;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+
+#workintro {
+	width: 960px;
+	height: 37px;
+}
+
+#workheaders {
+	width: 245px;
+	height: 86px;
+	float: left;
+}
+
+#workheader {
+    color: #31395A;
+    font-family: 'ChunkFiveRegular',Arial,Sans-Serif;
+    font-size: 46px;
+    margin-left: 8px;
+	
+}
+
+#workheader2 {
+    color: #31395A;
+    font-family: 'ChunkFiveRegular',Arial,Sans-Serif;
+    font-size: 30px;
+    margin-bottom: 22px;
+    margin-left: 10px;
+	
+}
+
+div#workholder {
+	margin: 0 auto;
+    margin-left: 12px;
+  
+    width: 960px;
+
+}
+
+#filtermenu {
+	height: 35px;
+	width: 960px;
+	padding-left:15px;
+	padding-top: 0px;
+	
+}
+
+ul#filterOptions {
+	font-family: 'ChunkFiveRegular', 'Century Gothic', Georgia, serif;
+	list-style: none;
+	
+	float:left;
+	margin-left: 0px;
+	
+}
+
+ul#filterOptions li {
+	padding-right: 25px;
+	float: left;
+}
+
+ul#filterOptions li.fromtop {
+	padding-top:6px;
+}
+
+
+ul#filterOptions li.on a {
+	color: #ffffff;
+	text-shadow: 0 1px 2px #4D5146;
+}
+
+ul#filterOptions a{
+	text-decoration: none;
+	color: #31395A;
+	font-size: 25px;
+	
+}
+
+
+ul.ourHolder {
+    height: auto;
+    list-style: none outside none;
+   	margin-left: 0px;
+    padding: 0;
+    width: 960px;
+}
+
+li.item {
+    border: 3px solid #31395a;
+    display: inline;
+    float: left;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+	
+	-webkit-box-shadow: 3px 2px 5px -3px #000;
+	-moz-box-shadow: 3px 2px 5px -3px #000;
+	box-shadow: 3px 2px 5px -3px #000;
+	
+	
+}
+
+
+li.item a {
+	
+	height: 200px;
+	width: 200px;
+	padding: 0;
+    color: #777777;
+    display: inline-block;
+	position: relative;
+
+    text-decoration: none;
+	
+}
+
+.thumbtitle {
+	background: none repeat scroll 0 0 #FFFFFF;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 215px;
+    z-index: 99;
+	border-top: 3px solid #282d38;
+	height: 40px;
+}
+
+
+.thumbtitle h1 {
+	padding-top: 8px;
+	font-family: 'ChunkFiveRegular', Futura, sans-serif; 
+	color: #30395C;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+}
+
+
+
+#bar2 {
+	height: 15px;
+	background: #2a314d;
+}
+
+
+
+/* ----------Begin Quicksand Styling---------- */
+
+.ourHolder{
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+}
+.ourHolder li{
+	float: left;
+	margin: 8px;
+	position: relative;
+	margin-left: 10px;
+}
+.ourHolder li > a,
+.ourHolder li > a img{
+	display: block;
+}
+.ourHolder li > a{
+	width: 215px;
+	height: 215px;
+	position: relative;
+	padding: 0;
+	/*background: #f1d2c2;
+	-webkit-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
+	-moz-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
+	box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;*/
+}
+.ourHolder li > a div{
+	font-family: 'ChunkFiveRegular';
+	position: absolute;
+	width: 215px;
+	height: 215px;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	line-height: 28px;
+	color: #30395C;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+	font-size: 26px;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	background: #fff;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #fff 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#fff));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,#fff 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,#fff 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,#fff 100%);
+	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,#fff 100%);
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	-ms-transition: opacity 0.3s linear;
+	transition: opacity 0.3s linear;
+	z-index:99;
+}
+
+.ourHolder li > a div p {
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ourHolder li > a div p#timelinetitle {
+	font-size: 24px;
+	line-height: 26px;
+	}
+
+.ourHolder li > a div p.subtitle {
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 15px;
+	padding: 0px 5px 0px 5px;
+	color: #7c7c7c;
+	text-shadow: none;
+}
+
+.ourHolder li > a:hover div{
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+
+
+.lb-overlay{
+	z-index: 200;
+	width: 0px;
+	height: 0px;
+	position: fixed;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	
+	text-align: center;
+	background: white;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0, 0, 0, 0.3)), color-stop(100%,rgba(0, 0, 0, 0.4)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.4) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.4) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.4) 100%);
+	background: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.4) 100%);
+}
+.lb-overlay > div{
+	position: relative;
+	color: rgba(27,54,81,0.8);
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	width: 550px;
+	margin: 10px auto 0px auto;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+	-webkit-transition: opacity 0.3s linear 1.3s;
+	-moz-transition: opacity 0.3s linear 1.3s;
+	-o-transition: opacity 0.3s linear 1.3s;
+	-ms-transition: opacity 0.3s linear 1.3s;
+	transition: opacity 0.3s linear 1.3s;
+}
+.lb-overlay div h3,
+.lb-overlay div p{
+	padding: 0px 20px;
+	width: 200px;
+	height: 60px;
+}
+.lb-overlay div h3{
+	font-size: 36px;
+	float: left;
+	text-align: right;
+	border-right: 1px solid rgba(27,54,81,0.4);
+}
+.lb-overlay div h3 span,
+.lb-overlay div p{
+	font-size: 16px;
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-style: italic;
+}
+.lb-overlay div h3 span{
+	display: block;
+	line-height: 6px;
+}
+.lb-overlay div p{
+	text-align: left;
+	float: left;
+	width: 260px;
+}
+.lb-overlay a.lb-close{
+	background: rgba(27,54,81,0.8);
+	z-index: 1001;
+	color: #fff;
+	position: absolute;
+	top: 43px;
+	left: 50%;
+	font-size: 15px;
+	line-height: 26px;
+	text-align: center;
+	width: 50px;
+	height: 23px;
+	overflow: hidden;
+	margin-left: -25px;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	-webkit-transition: opacity 0.3s linear 1.2s;
+	-moz-transition: opacity 0.3s linear 1.2s;
+	-o-transition: opacity 0.3s linear 1.2s;
+	-ms-transition: opacity 0.3s linear 1.2s;
+	transition: opacity 0.3s linear 1.2s;
+}
+.lb-overlay img{
+	/* height: 100%; For Opera max-height does not seem to work */
+	max-height: 100%;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+}
+.lb-overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0px;
+	right: 0px;
+	padding: 80px 100px 120px 100px;
+}
+.lb-overlay:target img {
+	-webkit-animation: fadeInScale 1.2s ease-in-out;
+	-moz-animation: fadeInScale 1.2s ease-in-out;
+	-o-animation: fadeInScale 1.2s ease-in-out;
+	-ms-animation: fadeInScale 1.2s ease-in-out;
+	animation: fadeInScale 1.2s ease-in-out;
+}
+.lb-overlay:target a.lb-close,
+.lb-overlay:target > div{
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+@-webkit-keyframes fadeInScale {
+  0% { -webkit-transform: scale(0.6); opacity: 0; }
+  100% { -webkit-transform: scale(1); opacity: 1; }
+}
+@-moz-keyframes fadeInScale {
+  0% { -moz-transform: scale(0.6); opacity: 0; }
+  100% { -moz-transform: scale(1); opacity: 1; }
+}
+@-o-keyframes fadeInScale {
+  0% { -o-transform: scale(0.6); opacity: 0; }
+  100% { -o-transform: scale(1); opacity: 1; }
+}
+@-ms-keyframes fadeInScale {
+  0% { -ms-transform: scale(0.6); opacity: 0; }
+  100% { -ms-transform: scale(1); opacity: 1; }
+}
+@keyframes fadeInScale {
+  0% { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+*/
+x:-o-prefocus, .lb-overlay img {
+    height: 100%;
+}
+
+/* ----------End Quicksand Styling---------- */
+
+	/* ----------------------------------------------------
+			Begin Section 2B: Portfolio Piece Styles
+	----------------------------------------- ---------------*/
+	
+.portfolio-piece {
+	padding: 20px 50px 30px 50px;
+	background:url(../images/headerbg1.jpg) repeat scroll center top #D5CCAF;
+}
+
+.portfolio-piece h1 {
+	font-family: 'ChunkFiveRegular', 'Arvo', Rockwell, serif;
+	color: #4A6491;
+    font-size: 36px;
+    text-shadow: 0 1px 0 white;
+
+	line-height: 44px;
+	
+}
+
+.portfolio-piece h1#subh1 {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+h2.subtitle {
+	color: #998C82;
+    font-family: 'Arvo', Rockwell, serif;
+    font-size: 20px;
+    padding-top: 5px;
+    text-shadow: 0 1px 0 white;
+	margin-bottom: 20px;
+}
+
+h3.process {
+	color: #4A6491;
+    font-family: 'Arvo', Rockwell, serif;
+    font-size: 30px;
+    margin-top: 45px;
+    text-shadow: 0 1px 0 white;
+}
+
+a.launch {
+	font-family: 'Arvo', Rockwell, serif;
+	font-size: 18px;
+	color: #4A6491;
+	
+}
+
+a.launch:hover {
+	color: #85a5cc;
+	
+	
+}
+
+a.bodylaunch {
+	font-family: 'Arvo', Rockwell, serif;
+	font-size: 18px;
+	color: #4A6491;
+	text-decoration: none;
+	
+}
+
+a.bodylaunch:hover {
+	color: #85a5cc;
+	
+}
+
+.piece-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.portfolio-piece p, .portfolio-piece h4, .portfolio-piece ul li {
+	color: #707070;
+    font-family: 'Arvo', Rockwell, serif;
+    font-size: 18px;
+	line-height: 24px;
+	
+}
+
+.portfolio-piece h4{
+	color: #4A6491;
+	font-size: 24px;
+}
+
+h4.listHead {
+	font-size: 18px;
+}
+
+#userflows {
+	margin-top:20px;
+}
+
+.portfolio-piece ul{
+	margin-left:20px;
+	}
+
+.portfolio-piece p.margintopparagraph {
+	margin-top: 15px;
+}
+
+.portfolio-piece p.indentedparagraph {
+	text-indent: 35px;
+}
+
+.portfolio-piece p.noindent {
+	text-indent: 0px;
+	
+}
+
+
+
+p.first {
+	margin-top: 15px;
+}
+
+p#timelinefirst {
+	margin-top: 15px;
+}
+
+#isolatedvideo {
+	margin: 30px auto 30px auto;
+}
+	
+	
+	
+	
+	/* ----------------------------------------------------
+			End Section 2B: Portfolio Piece Styles
+	--------------------------------------------------------*/
+
+
+/* ----------------------------------------------------
+		End Section 2: Work Styles
+--------------------------------------------------------*/
+
+
+
+
+
+
+
+/* ----------------------------------------------------
+		Begin Section 3: About Styles
+--------------------------------------------------------*/
+
+#about-wrapper {
+	background: url("../images/aboutbg1.png") repeat scroll center top;
+	margin: 0px 0px 0px 0px;
+}
+
+.about {
+	height: 1000px;
+	margin: 0 auto;
+	width: 940px;
+}
+
+#bar3 {
+	height: 15px;
+	background: #2a314d;
+}
+
+#bio_box {
+	background:url(../images/aboutBox1bg.jpg) repeat-x;
+	height: 443px;
+	margin: 150px 0px 0px 0px;
+	display: inline-block;
+	width: 940px;
+	position: relative;
+	
+	
+	-webkit-box-shadow: 5px 5px 19px -5px #000;
+	-moz-box-shadow: 5px 5px 19px -5px #000;
+	box-shadow: 5px 5px 19px -5px #000;
+}
+
+#biopic {
+	float: left;
+	margin: 18px 0px 0px 0px;
+}
+
+#bio_box p {
+	font-family: 'Arvo', Rockwell, serif;
+	color: #707070;
+	margin: 75px 40px 0px 370px;
+	font-size: 22px;
+	
+	
+}
+
+#bio_box p.indent {
+	text-indent: 50px;
+	margin-top: 0px;
+}
+
+#bio_box p a.blue {
+	color: #1e466e;
+}
+
+#bio_box p#resume {
+	right: 10px;
+	bottom: 15px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	font-size: 20px;
+	
+}
+
+#bio_box p#resume a{
+	color: #1e466e;
+}
+
+#bio_box p#resume a:hover{
+	color: #85a5cc;
+}
+
+
+/* ----------------------------------------------------
+		End Section 3: About Styles
+--------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------
+		Begin Section 4: Contact Styles
+--------------------------------------------------------*/
+
+#contact-wrapper {
+	background: url("../images/contactbg.png") repeat scroll center top;
+}
+
+.contact {
+	height: 4000px;
+	margin: 0 auto;
+	width: 940px;
+	padding-top: 0;
+}
+
+#drop_a_line {
+	position: relative;
+	float: left;
+	padding-top: 100px;
+}
+
+#drop_a_line p {
+	font-family: 'ChunkFiveRegular', 'Arvo', Rockwell, serif;
+	padding-bottom: 20px;
+}
+
+#drop_a_line p#grey_text {
+	padding-bottom: 5px;
+}
+
+p#green_text {
+	color: #969696;
+	text-shadow: 0 1px 0 white;
+	font-size: 36px;
+	
+}
+
+p#blue_text {
+	color: #4a6491;
+	text-shadow: 0 1px 0 white;
+	font-size: 36px;
+}
+
+#grey_text {
+	color: #85a5cc;
+	text-shadow: 0 1px 0 white;
+	font-size: 36px;
+	
+}
+
+.smallgrey {
+	font-size: 22px;
+	color: #969696;
+	text-shadow: 0 1px 0 white;
+	margin-top: 5px;
+}
+
+a.smallgrey {
+	text-decoration: none;
+}
+
+
+span#at {
+	font-family: Rockwell, Arial, sans-serif;
+}
+
+ul#social {
+	list-style: none;
+}
+
+ul#social li {
+	float: left;
+	padding-right: 20px;
+	height: 70px;
+	width: 70px;
+	margin-bottom: 10px;
+	
+}
+ul#social li#tumblr {
+	padding-right: 20px;
+}
+ul#social li#twitter {
+	padding-right: 35px;
+}
+
+#contact-area {
+	float: right;
+	width: 387px;
+	font-family: 'ChunkFiveRegular', 'Avro', sans-serif; 
+	text-shadow: 0 1px 0 white;
+	font-size: 18px;
+	padding-top: 100px;
+	
+}
+
+#contactiframe {
+	width: 390px;
+	height: 450px;
+	border: 0;
+}
+
+
+
+
+/* ----------------------------------------------------
+		End Section 4: Contact Styles
+--------------------------------------------------------*/
+
+
+
+
+
+
+
+
+footer {
+	height: 200px;
+	background: url("../images/contactbg.png") repeat scroll center top #f4f4f4;
+}
+
+footer #endmustache {
+	margin: 0 auto;
+	width: 300px;
+}
+
+footer a#mustache {
+	padding-left: 29px;
+}
+
+footer p#mustachetext{
+	font-size: 18px;
+	color: #969696;
+	text-shadow: 0 1px 0 white;
+	font-family: 'ChunkFiveRegular', 'Arvo', Rockwell, serif;
+	text-align: center;
+}
+
+.shadowed_piece {
+	box-shadow: 0px 0px 19px -4px #000000;
+	margin-bottom: 15px;
+}
+
+
+
+
+/* ----------------------------------------------------
+		Begin If-IE Section Styles
+--------------------------------------------------------*/
+
+div#entire_site {
+	display: none;
+} 
+
+
+div#if-ie {
+	width: 960px;
+	margin: 250px auto 0 auto;
+	display: none;
+}
+
+div#if-ie h1 {
+	text-align: center;
+	font-size: 40px;
+	color: #31395A;
+}
+
+div#if-ie p {
+	text-align: center;
+	font-size: 20px;
+}
+
+#browser-icons {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+
+.browser-photo {
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

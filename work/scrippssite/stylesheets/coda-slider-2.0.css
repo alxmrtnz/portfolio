@@ -1,0 +1,108 @@
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+<!-- Last Edited By:  Alex Martinez - September 4th, 2012 -->
+
+/* Most common stuff you'll need to change */
+
+
+	.coda-slider-wrapper { 
+		padding:  0px;
+		background: #FFF;
+	}
+	.coda-slider {
+		background: #FFF;
+	}
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 941px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 941px }
+	.coda-slider-wrapper.arrows .coda-slider { margin: -325px 0px 0px 0px }
+	
+	/* Arrow styling */
+	.coda-nav-left a, .coda-nav-right a { 
+		background: #f2f2f2; 
+		color: #808080;
+		text-align: center;
+		width: 20px;
+		height: 163px;
+		padding: 160px 11px 0px 11px;
+		/*opacity: .4;
+		filter:alpha(opacity=50);*/
+	}
+	
+	.coda-nav-left a {
+		position: relative;
+		z-index: 100;
+		left: -42px;
+	}
+	
+	.coda-nav-right a {
+		position: relative;
+		right: -941px;
+		top: -348px;
+		z-index: 100;
+	}
+	
+	.coda-nav-right a:hover, .coda-nav-left a:hover {
+		background: #a3a3a3;
+	}
+	
+	.coda-nav-left a:hover, .coda-nav-right a:hover {
+		color: #f2f2f2;
+	}
+	
+	.navButtons {
+		width: 300px;
+		height: 21px;
+		display: inline-block;
+		position: relative;
+		left: 855px;
+	}
+	
+	.xtrig {
+		opacity: .3;
+		filter:alpha(opacity=30);
+	}
+	
+	.currentButton {
+		opacity: 1;
+		filter:alpha(opacity=100);	
+	}
+	
+	.coda-nav {
+		display: none;
+	}
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 0px }
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: none; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul li { display: inline }
+	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { float: left }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-decoration: none }
+	

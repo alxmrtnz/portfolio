@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'bariol';
+    src: url('bariol_regular-webfont.eot');
+    src: url('bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_regular-webfont.woff') format('woff'),
+         url('bariol_regular-webfont.ttf') format('truetype'),
+         url('bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+
+body, html {
+	
+	position: relative;
+}
+
+body {
+	background: #31A66C;
+	font-family: 'bariol',Arial,Helvetica,sans-serif;
+	color: #fff;
+	z-index: -2;
+
+	overflow: visible;
+}
+
+div#contentWrapper {
+	min-height: 800px;
+	
+	margin: 0 auto;
+	width: 1060px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	z-index: 100000;
+	position: relative;
+}
+
+div#BGleft {
+	background: #33485E;
+	width: 38%;
+	position: fixed;
+	top:0;
+	left:0;
+	height: 400%;
+	z-index: -1;
+	min-width: 385px;
+}
+
+li.notActive {
+	color:#667683;
+}
+
+li.completed {
+	text-decoration: line-through;
+}
+
+h1 {
+	font-size: 3.75em;
+}
+
+div#leftInfo {
+	height: 400%;
+	background: #33485E;
+	width: 350px;
+	float: left;
+	position: absolute; 
+	top: 0px; 
+
+}
+div#leftInfoContent {
+	
+	margin-top: 200px;
+	
+}
+
+div#workSpace{
+	margin-top:200px;
+	padding-left:400px;
+	width: 650px;
+	
+	height:300px;
+}
+
+div.button{
+	background: #33485E;
+	font-size: 27px;
+	width: 98px;
+	height:34px;
+	position: absolute;
+	right: 0px;
+	margin-top:15px;
+}
+
+.nextButton {
+	padding-top: 4px;
+	padding-left: 17px;
+}
+
+
+ul li {
+	font-size: 1.5em;
+	line-height: 70px;
+	list-style-type: none;
+}
+
+
+
+

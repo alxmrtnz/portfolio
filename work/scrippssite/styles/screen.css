@@ -1,0 +1,1164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #f2f2f2;
+	border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner {
+	margin: 0px 0px 0px 0px;
+	min-width: 960px;
+	height: 45px;	
+	background-color: #14422c;
+
+}
+
+#banner #banner-content {
+	width: 997px;
+	margin: 0px auto 0px auto;
+}
+
+#banner img {
+	float: left;
+	padding: 3px 0 0 24px;
+}
+
+
+#banner h5 {
+	padding: 16px 0 0 15px;
+	margin:0;
+}
+
+#banner h5 a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFF;	
+	padding: 0 0 0 20px;
+}
+
+#wrapper {
+	width: 941px;
+	margin: 40px auto 0px auto;
+	
+}
+
+/* ----------------------------------------------------
+		Begin Page Header Styles
+--------------------------------------------------------*/
+
+header {
+	padding: 0px;
+	width: 941px;
+	float: left;
+	background-color: #f2f2f2;
+}
+
+header #jschool_logo {
+	width: 424px;
+	float: left;
+	display:inline-block;
+	padding: 0px 0px 15px 10px;
+}
+
+header nav#socialnav {
+	width: 123px;
+	display: inline-block;
+	float: right;
+	padding: 30px 0px 0px 0px;
+}
+
+header nav#socialnav ul {
+	padding: 0px;
+	margin: 0px;	
+}
+
+header nav#socialnav ul li {
+	float: left;
+	list-style: none;
+}
+
+header nav#globalnav {
+	width: 941px;
+	display:inline-block;
+	vertical-align: top;
+	position: relative;
+	z-index: 5;
+}
+
+header nav#globalnav ul#primary li {
+	list-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	color: #FFF;
+	
+}
+
+header nav#globalnav ul#primary li.primary-li {
+	text-transform: uppercase;
+}
+
+nav#globalnav a:link {
+	
+	padding: 15px 16px 12px 21px;
+	margin: 0px 0px 0px 0px;
+	color: #FFF;
+	text-decoration: none;
+	float: left;
+}
+
+nav#globalnav #home a:link {
+	padding: 11px 12px 7px 12px;
+}
+
+nav#globalnav #searchbar a:link {
+	padding: 14px 23px 12px 23px;
+}
+
+header nav#globalnav ul {
+	padding: 0px;
+	margin: 0px;	
+}
+
+header #globalnav ul li#home, #globalnav ul li#undergrad, #globalnav ul li#grad,
+header #globalnav ul li#alumni, #globalnav ul li#news-events, #globalnav ul li#research,
+header #globalnav ul li#contact{
+	background-color: #808080;
+	padding: 0px;
+	margin: 0px;	
+	float: left;
+	border-right: 1px solid #777777;
+	height: 41px;
+} 
+
+
+header #globalnav ul li#searchbar {
+	background-color: #808080;
+	padding: 0px;
+	margin: 0px;
+	height: 41px;
+}
+
+header nav#globalnav ul li#home {	
+	width: 47px;
+	font-size: 20px;
+}
+
+header nav#globalnav ul li#undergrad {	
+	width: 154px;
+}
+
+
+header nav#globalnav ul li#grad {	
+	width: 110px;
+}
+
+header nav#globalnav ul li#alumni {	
+	width: 155px;
+}
+
+header nav#globalnav ul li#news-events {	
+	width: 140px;
+}
+
+header nav#globalnav ul li#research {	
+	width: 108px;
+}
+
+header nav#globalnav ul li#contact {	
+	width: 100px;
+}
+
+header nav#globalnav ul li.primary-li {
+	font-size: 12px;
+}
+
+header #globalnav ul li#home:hover, #globalnav ul li#undergrad:hover, #globalnav ul li#grad:hover,
+header #globalnav ul li#alumni:hover, #globalnav ul li#news-events:hover, #globalnav ul li#research:hover,
+header #globalnav ul li#contact:hover{
+	background-color: #5c5c5c;
+} 
+
+
+nav#globalnav ul li ul.secondary {
+	display: none;
+	text-transform: lowercase;
+	position: absolute;
+	float: left;
+	background-color: #5c5c5c;
+	/* nbox-shadow : inset 0 0 5px 0 black; padding:.23em; */
+
+	
+}
+	
+nav#globalnav ul li:hover ul.secondary {
+	display: block;
+	text-transform: lowercase;
+	margin-top: 41px;
+	
+}
+
+nav#globalnav ul li ul.secondary li {
+	text-transform: none;
+	padding: 5px 30px 2px 10px;
+	font-size: 13px;
+}
+
+nav#globalnav ul li ul.secondary li.last-list-item {
+	padding-bottom: 8px;
+}
+
+
+nav#globalnav a:visited {
+	color: #FFF;
+}
+
+nav#globalnav ul li ul a:link {
+	padding: 0;
+	float: none;
+}
+
+
+nav#globalnav ul li ul li:hover {
+	background-color: #424242;
+}
+
+#searchBox {
+	width: 120px;
+	float: left;	
+	
+}
+
+.searchform {
+	background-color: #808080;
+    border-right: 1px solid #777777;
+    color: #FFFFFF;
+    float: left;
+    margin: 0;
+    padding: 12px 4px 6px 4px;
+}
+
+.searchform .searchfield {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0px solid #BCBBBB;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+    outline: medium none;
+    padding: 3px 6px 3px 8px;
+    width: 97px;
+	
+}
+
+
+/* ----------------------------------------------------
+		End Page Header Styles
+--------------------------------------------------------*/
+
+/* ----------------------------------------------------
+		Begin Main Content Styles
+--------------------------------------------------------*/
+
+
+/*BEGIN HOME PAGE ---------------------------------------------- */
+
+#content-wrapper {
+	width: 942px;
+}
+
+#slideshow {
+	padding: 0px 0px 0px 0px;
+	float: left;
+	background-color: #FFF;
+}
+
+#maincontent {
+	float: left;
+	width: 942px;
+	background-color: #FFF;
+	padding-bottom: 20px;
+	margin-top: -325px;
+}
+
+#maincontent section {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#maincontent p {
+	font-size: 13px;
+	color: #5c5c5c;
+}
+
+#maincontent h2 {
+	font-size: 24px;
+	color: #14422c;
+	font-weight: 100;
+	border-bottom-color: #b1b1b1;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	width: 220px;
+	margin: 0px 0px 10px 0px;
+}
+
+#maincontent #welcome {
+	float: left;
+	width: 314px;
+	height: 264px;
+}
+
+#maincontent #welcome #welcome_content {
+	padding: 0px 14px 5px 12px;
+}
+
+#maincontent #welcome img {
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+
+#maincontent #welcome p {
+	padding: 0px 0px 0px 112px;
+	margin: 0px 0px 0px 0px;
+	
+}
+
+#maincontent #welcome p#signature {
+	text-align: right;
+	line-height: 10px;
+}
+
+#maincontent #welcome p#title {
+	text-align: right;
+	font-size: 10px;
+}
+
+#maincontent #news {
+	float: left;
+	width: 313px;
+	border-left-color: #b1b1b1;
+	border-left-width: 1px;
+	border-left-style: solid;
+	height: 250px;
+}
+
+#maincontent #news #newscontent {
+	padding: 0px 0px 0px 16px;
+	
+}
+
+#news ul {
+	font-size: 13px;
+	color: #4d735a;
+	list-style: none;
+	margin: -9px 0px 0px 0px;
+	padding: 0px 20px 0px 0px;
+}
+
+#news li {
+	padding: 10px 0px 10px 0px;
+	border-bottom-color: #d0d0d0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+#news li#last {
+	border-bottom-style: none;
+}
+
+#news li a:link {
+	color: #4e745c;
+	text-decoration: none;
+}
+
+#news li a:visited {
+	color: #5b4e74;
+}
+
+#news li a:hover {
+	color: #914442;
+}
+
+
+#maincontent #feature {
+	float: left;
+	width: 313px;
+	border-left-color: #b1b1b1;
+	border-left-width: 1px;
+	border-left-style: solid;
+	height: 250px;
+}
+
+#maincontent #featurecontent {
+	padding: 0px 0px 0px 16px;
+}
+
+#secondary_content {
+	float: left;
+	width: 941px;
+	background-image: url(../images/maincontentfooter.png);
+	margin-bottom: 40px;
+	border-top-color: #CCC;
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin-top: -42px;
+}
+
+#tweets {
+	width: 280px;
+	font-size: 12px;
+	float: left;
+}
+
+.homeapply{
+	-moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background: -moz-linear-gradient(center top , #FFCE79 5%, #EEAF41 100%) repeat scroll 0 0 #FFCE79;
+    border: 1px solid #EEB44F;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 0 1px 0 0 #FCEACA inset;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: arial;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 12px 0 0 54px;
+    padding: 15px 73px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #CE8E28;
+	
+	
+}.homeapply:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eeaf41), color-stop(1, #ffce79) );
+	background:-moz-linear-gradient( center top, #eeaf41 5%, #ffce79 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeaf41', endColorstr='#ffce79');
+	background-color:#eeaf41;
+}.homeapply:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+
+#tweetbox {
+	
+	height: 45px;
+	float: left;
+	padding: 8px 10px 10px 10px;
+	margin: 10px 0px 10px 10px;
+	background-color: #e3e3e3;
+	border-color: #808080;
+	border-style: solid;
+	border-width: 8px;
+	
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 20px;
+}
+
+
+#tweets p {
+	color: #424242;
+	width: 240px;
+	padding: 3px 5px 3px 5px;
+	margin: 0;
+}
+
+.tweetbox {
+  
+ 	height: 45px;
+	float: left;
+	padding: 8px 0px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	background-color: #e3e3e3;
+	border-color: #808080;
+	border-style: solid;
+	border-width: 8px;
+	
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 20px;
+  
+  
+  	position:relative;
+  
+  
+ 
+}
+
+.chat-bubble-arrow-border {
+  border-color: #808080 transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom:-27px;
+  left:46px;
+}
+
+
+#bird {
+	float: left;
+	margin: 0px 4px 0px 5px;
+}
+
+#handle {
+	margin-top: 20px;
+}
+
+#handle a {
+	color: #904240;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#handle a:visited {
+	color: #904240;
+}
+
+/* END HOME PAGE-----------------------------------------*/
+
+
+/*BEGIN UNDERGRAD PAGE---------------------------------- */
+
+
+#content-wrapper-undergrad {
+	background-color: #FFF;
+	height: 1450px;
+	
+}
+
+ #content-shadow-undergrad {
+	display: inline-block;
+	background-color: #FFF;
+	height: 1300px;
+	
+    
+	width: 941px;
+    -webkit-box-shadow: 0px 1px 12px 0px #888 ;
+	box-shadow: 0px 1px 12px 0px #888;
+}
+
+
+header #globalnav ul li#undergrad_landing {
+	
+	background-color: #5c5c5c;
+    border-right: 1px solid #777777;
+    float: left;
+    height: 41px;
+    margin: 0;
+    padding: 0;
+	width: 154px;
+}
+
+header #globalnav ul li#contact_landing {
+	
+	background-color: #5c5c5c;
+    border-right: 1px solid #777777;
+    float: left;
+    height: 41px;
+    margin: 0;
+    padding: 0;
+	width: 100px;
+}
+
+
+#localnav {
+	background-color: #547464;
+	color: #a5b8ac;
+	font-size: 14px;
+	height: 270px;
+	width: 160px;
+	position: relative;
+	top: 25px;
+	left: -23px;
+	float: left;
+	display: inline-block;
+}
+
+
+
+#localnav ul {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 16px 0px 0px 13px;
+	line-height: 25px;
+}
+
+#localnav ul li:hover {
+	color: #FFF;
+}
+
+#localnav a {
+	color: #a5b8ac;
+	text-decoration: none;
+}
+
+#localnav a:hover {
+	color: #FFF;
+}
+
+#localnav a.active, #localnav li.active {
+	color: #FFF;
+}
+
+#triangle {
+	position: relative;
+	left: 0px;
+	bottom: -26px;
+}
+
+.localnav-arrow {
+  border-color: #808080 transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom:-20px;
+  left:-1px;
+}
+
+#undergrad {
+	margin-left: 160px;
+	width: 560px;
+}
+
+#undergrad h1 {
+	color: #14422c;
+	font-size: 30px;
+	font-weight: 100;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-top: 20px;
+	margin-bottom: 7px;
+	padding: 0;
+	
+}
+
+
+
+ul#breadcrumbs {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+ul#contact-breadcrumbs {
+	margin: 0;
+	padding: 0px 0px 0px 98px;
+	display: inline-block;
+}
+
+#undergrad ul#breadcrumbs li, #orgs ul#org-breadcrumbs li, #form ul#contact-breadcrumbs li {
+	float: left; 
+	list-style: none;
+	margin-right: 4px;
+	font-size: 14px;
+}
+
+ul#breadcrumbs a.bread, ul#org-breadcrumbs a.bread, ul#contact-breadcrumbs a.bread {
+	color: #808080;
+	text-decoration: none;
+}
+
+ul#breadcrumbs a.bread:visited, ul#org-breadcrumbs a.bread:visited, ul#contact-breadcrumbs a.bread:visited {
+	color: #808080;
+}
+
+ul#breadcrumbs a.bread:hover, ul#org-breadcrumbs a.bread:hover, ul#contact-breadcrumbs a.bread:hover {
+	color: #c56565;
+}
+
+ul#breadcrumbs a.current-bread, ul#org-breadcrumbs a.current-bread, ul#contact-breadcrumbs a.current-bread {
+	color: #808080;
+	text-decoration: none;
+}
+
+
+ul#breadcrumbs li.breadarrows, ul#org-breadcrumbs li.breadarrows, ul#contact-breadcrumbs li.breadarrows {
+	color: #808080;
+}
+
+#undergrad #sequences {
+	margin-bottom: 20px;	
+}
+.apply {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 23px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ce8e28;
+	float: right;
+}.apply:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eeaf41), color-stop(1, #ffce79) );
+	background:-moz-linear-gradient( center top, #eeaf41 5%, #ffce79 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeaf41', endColorstr='#ffce79');
+	background-color:#eeaf41;
+}.apply:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+.apply#homeapply {
+	float: right;
+	margin: 42px 50px 0 0;
+}
+
+.scrippspath {
+	-moz-box-shadow:inset 1px 1px 0px 0px #7b9185;
+	-webkit-box-shadow:inset 1px 1px 0px 0px #7b9185;
+	box-shadow:inset 1px 1px 0px 0px #7b9185;
+	background-color:#547464;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	border:1px solid #07360f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight: 100;
+	padding:50px 28px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #000000;
+	width: 207px;
+}.scrippspath:hover {
+	background-color:#224d38;
+}.scrippspath:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+
+#undergrad h2 {
+	color: #14422c;
+	font-weight: 100;
+	margin: 15px 0px 5px 0px;
+}
+
+#undergrad p {
+	color: #808080;
+	margin: 0;
+	font-size: 15px;
+}
+
+#undergrad .ohio-breakout {
+	width: 180px;
+	float: left;
+	height: 180px;
+	
+}
+
+#undergrad .ohio-breakout ul {
+	font-size: 13px;
+	
+	padding: 0;
+	padding-left: 17px;
+}
+
+#undergrad .ohio-breakout ul li {
+	margin-bottom: 15px;
+}
+
+#undergrad  #breakout1 {
+	padding: 0;
+	margin: 0px 20px 0px 0px;
+}
+
+#undergrad  #breakout2 {
+	width: 150px;
+	margin: 0px 20px 0px 10px;
+}
+
+#undergrad  #breakout3 {
+	width: 171px;
+	padding: 0;
+	margin: 0px 0px 0px 0px;
+}
+
+#undergrad .ohio-breakout h3 {
+	font-weight: 100;
+	color: #14422c;
+}
+
+#undergrad #alumni-pic1 p, #alumni-pic2 p, #alumni-pic3 p {
+	color: #14422c;
+}
+
+#undergrad #alumni-pic1, #alumni-pic2, #alumni-pic3 {
+	display: inline-block;
+}
+
+#undergrad #alumni-pic1, #alumni-pic2 {
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+
+/*END UNDERGRAD PAGE---------------------------------- */
+
+
+/*BEGIN Student Orgs PAGE---------------------------------- */
+
+#content-wrapper-orgs {
+	background-color: #FFF;
+	height: 1400px;
+	
+
+} 
+
+ #content-shadow-orgs {
+	display: inline-block;
+	background-color: #FFF;
+	height: 1241px;
+	
+    
+	width: 941px;
+    -webkit-box-shadow: 0px 1px 12px 0px #888 ;
+	box-shadow: 0px 1px 12px 0px #888;
+}
+
+#orgs {
+	margin-left: 35px;
+	width: 830px;
+	margin-top: 40px;
+	
+}
+
+#org-title {
+	width: 420px;
+    color: #14422C;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    padding: 0;
+	margin-left: 15px;
+}
+
+ul#org-breadcrumbs {
+	float: left;
+	margin: 0;
+	left: 0;
+	padding: 0;
+	
+}
+
+#orgs h1 {
+	color: #14422c;
+	font-size: 30px;
+	font-weight: 100;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-top: 20px;
+	margin-bottom: 7px;
+	padding: 0;
+	display: inline-block;
+	
+}
+
+#orgs #all-orgs {
+	float: left;
+	display: block;
+	width: 705px;
+}
+#orgs #column1 {
+	margin-top: 0;
+	float: left;
+	width: 170px;
+	margin-left: 0px;
+	margin-right: 88px;
+}
+
+
+#orgs #column2 {
+	width: 170px;
+	float: left;
+	margin-right: 70px;
+}
+
+#orgs #column3 {
+	width: 170px;
+	float: left;
+}
+
+#orgs .organization {
+	height: 140px;
+	margin-bottom: 25px;
+}
+
+#orgs .organization img {
+	float: left;
+}
+
+#orgs .organization h1{
+	font-size: 20px;
+	border: none;
+}
+
+#orgs .organization p {
+	font-size:14px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #5c5c5c;
+}
+
+#orgs .organization a {
+	color: #904240;
+	text-decoration: none;
+	font-size: 14px;
+	
+}
+
+
+/*END Student Orgs PAGE---------------------------------- */
+
+/* BEGIN CONTACT PAGE------------------------------------ */
+
+#content-wrapper-contact {
+	background-color: #FFF;
+	height: 1100px;
+	
+}
+
+#content-shadow-contact {
+	display: inline-block;
+	background-color: #FFF;
+	height: 941px;
+	
+    
+	width: 941px;
+	
+    -webkit-box-shadow: 0px 1px 12px 0px #888 ;
+	box-shadow: 0px 1px 12px 0px #888;
+}
+
+#form-area {
+	width: 738px;
+	margin: 0px 0px 0px 0px;
+	font-size: 10px;
+	display: inline-block;
+}
+
+#form {
+	width: 680px;
+	margin: 0px 0px 0px 0px;
+	font-size: 10px;
+	display: inline-block;
+}
+
+#contactpage #scripps-hall {
+	
+	margin: 0;
+}
+
+#side-contact {
+	background-color: #CCCCCC;
+    color: #666666;
+    display: inline-block;
+    float: right;
+    height: 681px;
+    margin-top: 156px;
+    position: relative;
+    right: -22px;
+    top: 21px;
+    width: 199px;
+	
+}
+
+#side-contact h2 {
+	font-size: 16px;
+	padding-left: 10px;
+	margin-bottom: 2px;
+}
+
+#side-contact p {
+	font-size: 14px;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+#side-contact p#last-contact {
+	margin-bottom: 20px;
+}
+
+#trianglecontact {
+    bottom: 13px;
+    position: relative;
+    right: -178px;
+}
+
+
+#contactpage #contact-paragraph p {
+	font-size: 15px;
+	margin-left: 98px;
+    width: 596px;
+	color: #5c5c5c;
+	
+}
+
+
+#form-area h1 {
+	font-size: 20px;
+	border-bottom: 1px solid #808080;
+    color: #14422C;
+    font-size: 30px;
+    font-weight: 100;
+	margin: 20px 0 7px 96px;
+    padding: 0;
+	width: 564px;
+}
+
+
+#contact-paragraph p, #contact-paragraph h1 {
+	margin-left: 50px;
+}
+
+#form-area input, #contact-area textarea {
+	
+	padding: 5px;
+	width: 484px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#form-area textarea {
+	height: 90px;
+	width: 496px;
+}
+
+#form-area textarea:focus, #form-area input:focus {
+	border: 2px solid #900;
+}
+
+#form-area input.submit-button {
+	width: 100px;
+	margin-top: 10px;
+	float: right;
+	margin-right: 13px;
+}
+
+label {
+	float: left;
+	text-align: left;
+	margin-right: 15px;
+	margin-left: 97px;
+	width: 59px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------------
+		End Main Content Styles
+--------------------------------------------------------*/
+
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	background: none repeat scroll 0 0 #424242;
+    clear: both;
+    color: #FFFFFF;
+    margin-bottom: -100px;
+    padding: 20px;
+	height: 150px;
+	text-decoration:none;
+	position: relative;
+	z-index: 5;
+}
+
+footer #footer-content {
+	width: 942px;
+	margin: 0px auto 0px auto;
+}
+
+footer #footer-content #footer-contact {
+	font-size: 14px;
+	float: left;
+	margin-right: 38px;
+}
+
+#footer-contact p {
+	margin: 0;
+}
+
+footer #footer-content #footernav {
+	display: inline-block;
+	right: 0;
+}
+
+#footernav ul {
+	margin: 0;
+	padding: 0;
+	
+}
+
+#footernav ul li {
+	float: left;
+	list-style: none;
+	font-size: 13px;
+	padding: 0px 5px 0px 5px;
+	vertical-align: top;
+	
+}
+
+#footernav a {
+	text-decoration: none;
+}
+
+#footernav a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+footer #footer-content #footersocialnav {
+	display: inline-block;	
+	float: right;
+	padding-right: 35px;
+}
+
+#footersocialnav ul li {
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	padding: 0px 5px 0px 5px;
+	vertical-align: top;
+}

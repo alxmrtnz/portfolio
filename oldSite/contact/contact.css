@@ -1,0 +1,169 @@
+/*
+Contact Form by html-form-guide.com
+You can customize all the aspects of the form in this style sheet
+All the style elements use form id selector(notice the #contactus). So, including this
+stylesheet does not affect the other elements at all!
+*/
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('../fonts/Chunkfive-webfont.eot');
+    src: url('../fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Chunkfive-webfont.woff') format('woff'),
+         url('../fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('../fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	
+	
+
+}
+
+body {
+	margin:0;
+}
+
+element.style {
+    margin: 0;
+    padding: 0;
+}
+
+#contactus fieldset
+{
+   	width:387px;
+   	padding: 0;
+	margin: 0;
+   	border:none;
+   	font-family: 'ChunkFiveRegular', 'Avro', sans-serif; 
+	color: #4A6491;
+	text-shadow: 0 1px 0 white;
+	font-size: 18px;
+	 
+}
+
+#contactus legend, h2
+{
+   font-family: 'ChunkFiveRegular', 'Avro', sans-serif; 
+	color: #4A6491;
+	text-shadow: 0 1px 0 white;
+	
+}
+
+#contactus label
+{
+   margin-bottom: 5px;
+}
+
+#contactus input[type="text"],textarea
+{
+  
+
+}
+
+#contactus input[type="text"]
+{
+  height:18px;
+  width:220px;
+  margin-top: 5px;
+  
+  
+}
+
+#contactus #scaptcha
+{
+  width:60px;
+  height:18px;
+}
+
+#contactus input[type="submit"]
+{
+   width: 100px;
+	float: right;
+	background-color: #FFF;
+	-moz-box-shadow:    inset 0px 0px 0px 0px #bbbbbb;
+   -webkit-box-shadow: inset 0px 0px 0px 0px #bbbbbb;
+   box-shadow:         inset 0px 0px 0px 0px #bbbbbb;
+   
+  
+}
+
+#contactus textarea
+{
+  height:146px;
+  width:318px;
+  margin-top: 5px;
+
+}
+
+#contactus input[type="text"]:focus,textarea:focus
+{
+  border: 2px solid #4A6491;
+}
+
+#contactus .container
+{
+	margin-bottom: 15px;
+	margin-right: 64px;
+}
+
+#contactus .error
+{
+   font-family: Verdana, Arial, sans-serif; 
+   
+   color: #485868;
+  
+}
+
+#contactus fieldset#antispam
+{
+   
+   border-top:1px solid #EEE;
+   border-left:0;
+   border-right:0;
+   border-bottom:0;
+   width:350px;
+}
+
+#contactus fieldset#antispam legend
+{
+   
+   font-size: 0.8em;
+   font-weight:bold;
+   color:#333;   
+}
+
+#contactus .short_explanation
+{
+   
+   font-size: 0.6em;
+   color:#333;   
+}
+
+/* spam_trap: This input is hidden. This is here to trick the spam bots*/
+#contactus .spmhidip
+{
+   display:none;
+   width:10px;
+   height:3px;
+}
+#fg_crdiv
+{
+   
+   font-size: 0.3em;
+   opacity: .2;
+   -moz-opacity: .2;
+   filter: alpha(opacity=20);   
+}
+#fg_crdiv p
+{
+    display:none;
+}
+
+
+
+
+
+
+
+
+

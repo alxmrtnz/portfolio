@@ -1,0 +1,171 @@
+#contentWrapper {	
+	margin: 0 auto;
+	max-width: 960px;
+	min-height: 300px;
+	padding-bottom: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #666666;
+}
+
+#candidatesIntro {
+	font-size: 22px;
+	line-height: 36px;
+	margin: 40px 0px 40px 0px;
+}
+
+#candidatesView {
+	background: white;
+	margin-bottom: 30px;
+}
+
+.candidates li {
+	display: inline-block;
+}
+
+.candidates h2 {
+	background: none repeat scroll 0 0 #FF9933;
+	color: white;
+	font-size: 33px;
+	letter-spacing: 1px;
+	margin: 10px 0;
+	max-width: 960px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.candidate {
+	cursor: pointer;
+	height: 210px;
+	margin: 2px 0;
+	padding: 4% 0% 2% 3%;
+	width: 46%;
+}
+
+.expanded {
+	height: auto;
+	width: 97%;
+}
+
+.candidatePic {
+	float: left;
+	max-height: 360px;
+	max-width: 360px;
+	position: relative;
+	width: 50%;
+}
+
+.candidateInfo {
+	float: right;
+	position: relative;
+	width: 45%;
+	
+}
+
+.candidatePosition {
+	color: #405F86;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.candidateName {
+	color: #FF9933;
+	font-family: "Proxima Nova";
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.candidateMajor {
+	padding-bottom: 10px;
+}
+
+.candidateBio {
+	font-size: 15.5px;
+	height: 135px;
+	line-height: 22px;
+	overflow: hidden;
+	white-space: normal;
+	width: 80%;
+}
+
+.expanded .candidateBio {
+	height: auto;
+}
+
+
+
+
+
+
+@media screen and (max-width: 777px) {
+
+	.candidate {
+		cursor: pointer;
+		height: auto;
+		margin: 2px 0;
+		padding: 5% 0% 3% 3%;
+		width: 97%;
+	}
+	
+	#contentWrapper {
+		width: 100%;
+		padding: 0;
+	}
+	
+	#candidatesIntro {
+		font-size: 22px;
+		line-height: 36px;
+		margin: 40px auto 40px auto;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.candidateBio{
+		display: none;
+	}
+	
+	.candidateInfo {
+		width: 35%;
+		padding-right: 10%;
+	}
+	
+	.candidatePosition {
+	
+		font-size: 1.25em;
+	}
+	
+	.candidate {
+		cursor: pointer;
+		height: auto;
+		margin: 2px 0;
+		padding: 5% 0% 3% 3%;
+		width: 97%;
+	}
+	
+	.candidates h2 {
+		font-size: 28px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

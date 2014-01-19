@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://alxmrtnz.com/</loc>
+
+      <lastmod>2014-01-18</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://alxmrtnz.com/work/</loc>
+
+      <lastmod>2014-01-18</lastmod>
+      
+      <priority>0.6</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://alxmrtnz.com/work/reach</loc>
+
+      <lastmod>2014-01-18</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>http://alxmrtnz.com/work/battleofthehands</loc>
+
+      <lastmod>2014-01-18</lastmod>
+
+   </url>
+   
+   <url>
+
+      <loc>http://alxmrtnz.com/work/votevoice</loc>
+
+      <lastmod>2014-01-18</lastmod>
+
+   </url>
+   
+   <url>
+
+      <loc>http://alxmrtnz.com/work/scripps</loc>
+
+      <lastmod>2014-01-18</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>http://alxmrtnz.com/profile</loc>
+
+      <lastmod>2014-01-18</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>http://alxmrtnz.com/contact</loc>
+
+      <lastmod>2014-01-18</lastmod>
+      
+      <priority>0.5</priority>
+
+   </url>
+
+</urlset>
