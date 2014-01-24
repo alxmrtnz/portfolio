@@ -19,7 +19,7 @@
         <a class="next-arrow left" href="scripps">
 
             <i class="icon-left-open"></i>
-            <span>Scripps</span>
+            <span style="top: -9px;">Scripps Redesign</span>
         </a>
 
 
