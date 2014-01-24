@@ -973,8 +973,10 @@ header.smallHeader{
             -moz-border-radius: 300px;
             border-radius: 300px;
             margin-bottom: 20px;
-           // border:10px solid #ddd;
-            //float: left;
+
+            @media screen and (max-width: $first-break) {
+                margin-bottom: 0px;
+            }
         }
         p{
             text-align: left;
@@ -1005,14 +1007,13 @@ header.smallHeader{
                     &.link{
                         padding-bottom: 3px;
                         margin-bottom: 20px;
+
                     }
                     @media screen and (max-width: $first-break) {
                         float: left;
                         width: 100%;
                         display: none;
-                        &.link{
-                            display: block;
-                        }
+
                     }
                 }
             }
@@ -1056,6 +1057,20 @@ header.smallHeader{
         width: 70%;
         border-left: 1px solid #ddd;
         padding: 10px 0px 10px 3%;
+
+        img.mobileProfPic{
+            display: none;
+            width:50px;
+            //height:250px;
+            -webkit-border-radius: 300px;
+            -moz-border-radius: 300px;
+            border-radius: 300px;
+            margin-bottom: 20px;
+
+            @media screen and (max-width: $first-break){
+                display: inline-block;
+            }
+        }
         h1{
             font-size: 38px;
             //text-align: center;
@@ -1065,7 +1080,30 @@ header.smallHeader{
                 color: #d46156;
             }
 
+            @media screen and (max-width: $first-break){
+                font-size: 38px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
 
+
+            @media screen and (max-width: 430px){
+                font-size: 22px
+            }
+
+
+        }
+
+        div.mobileResumeLink{
+            text-align: center;
+            display: none;
+            margin-bottom: 20px;
+            a{
+                font-family: 'Muli', sans-serif;
+            }
+            @media screen and (max-width: $first-break){
+                display: block;
+            }
         }
         p{
 
@@ -1298,6 +1336,8 @@ header.smallHeader{
         text-transform: uppercase;
         font-weight: bold;
         font-size: 18px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
         letter-spacing: 1px;
         i{
             color: $salmon;
@@ -1306,6 +1346,7 @@ header.smallHeader{
     h3{
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
+        line-height: 24px;
         margin-bottom: 6px;
 
     }
@@ -1402,7 +1443,7 @@ header.smallHeader{
             div.companyName{
 
 
-                    margin-bottom: 5px;
+                    margin-bottom: 10px;
                     font-family: 'Muli', sans-serif;
                     a{
                         font-family: 'Muli', sans-serif;
