@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <h1 ><a href="reach">Reach Web Solutions</a></h1>
-                <h2> Responsive Design, Visual Design, Front-End Development, CSS3</h2>
+                <h2> Responsive Design, Front-End Development, CSS3    <a href="http://www.reachws.com/" target="_blank" class="small-red-link">Launch Site</a></h2>
                 <p>A playful site for Reach, a new agency co-founded by yours truly that specializes in web applications. <a href="reach"  class="small-red-link">Learn More ></a></p>
             </div>
         </section>
@@ -46,9 +46,9 @@
                                 <img class="second" src="/images/oums/OUMS-homepage.jpg" alt="Ohio University Multimedia Society Redesign">
                     </a>
                 </div>
-                <h1 ><a href="oums">Ohio University<br>Multimedia Society</a></h1>
-                <h2>Responsive Design, Visual Design, Wordpress Development</h2>
-                <p>A single-page, responsive, Wordpress integrated site for OU's Multimedia Society <a href="oums"  class="small-red-link">Learn More ></a></p>
+                <h1 style="margin-top: 15px"><a href="oums">Ohio University<br>Multimedia Society</a></h1>
+                <h2>Responsive Design, Visual Design, Wordpress Development    <a href="http://www.ohioums.com/" target="_blank" class="small-red-link">Launch Site</a></h2>
+                <p>A single-page, responsive, Wordpress integrated site for Ohio University's Multimedia Society <a href="oums"  class="small-red-link">Learn More ></a></p>
             </div>
         </section>
 
@@ -65,7 +65,7 @@
                     </a>
                 </div>
                 <h1 style=""><a href="battleofthehands">Battle of the Hands</a></h1>
-                <h2> Web App, UX Design, Art Direction</h2>
+                <h2> Web App, UX Design, Art Direction <a href="http://www.battle-of-the-hands.herokuapp.com/" target="_blank" class="small-red-link">Launch the App</a></h2>
                 <p>The product of my office's intern project completed during my time at <a href="http://www.viget.com/">Viget</a> in Boulder, CO. <a href="battleofthehands" class="small-red-link">Learn More ></a></p>
             </div>
         </section>
@@ -81,7 +81,7 @@
                 </a>
                 </div>
                 <h1 ><a href="votevoice">Vote Voice</a></h1>
-                <h2>Responsive Design, Front-End Development</h2>
+                <h2>Responsive Design, Front-End Development <a href="voiceSite/index.php" target="_blank" class="small-red-link">Launch Site</a></h2>
                 <p>A completely responsive site promoting Voice, a ticket that ran for the Ohio University Student Senate. <a href="votevoice" class="small-red-link">Learn More ></a></p>
             </div>
         </section>
@@ -104,10 +104,10 @@
             <div class="container workContainer">
             <a href="infographics">
                 <div class="previewContainer">
-                    <div class="shadow">
-                        <img src="/images/browserTop.svg" alt="top of browser">
+
+
                         <img class="second" src="/images/infographics/infographic-cover.jpg" alt="Infographic Collection">
-                    </div>
+
 
                 </div>
             </a>

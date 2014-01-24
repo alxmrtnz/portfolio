@@ -55,6 +55,12 @@
         case 'battleofthehands.php':
              $title = 'Alex Martinez | Battle of the Hands';
              break;
+        case 'infographics.php':
+             $title = 'Alex Martinez | Infographics';
+             break;
+        case 'oums.php':
+             $title = 'Alex Martinez | Ohio University Multimedia Society';
+             break;
         }
         echo '<title>'.$title.'</title>';
 
