@@ -18,21 +18,23 @@
 
         <a class="next-arrow left" href="oums">
             <i class="icon-left-open"></i>
+            <span>OUMS</span>
         </a>
         <a class="next-arrow right" href="votevoice">
             <i class="icon-right-open"></i>
+            <span>Vote Voice</span>
         </a>
 
         <section class="workItem caseStudy">
-
+            <h1>Battle of the Hands</h1>
+            <h2> UX Design, Art Direction <a href="http://battle-of-the-hands.herokuapp.com/" target="_blank" class="small-red-link">Launch the App ></a></h2>
                 <div class="previewContainer mainHighlight">
                     <div class="shadow">
                             <img src="../images/browserTop.svg" alt="top of browser">
                             <img class="second" src="../images/rps/rps1.png" alt="Battle of the Hands">
                     </div>
                 </div>
-                <h1><span>Battle of the Hands</span></h1>
-                <h2> UX Design, Art Direction <a href="http://battle-of-the-hands.herokuapp.com/" target="_blank" class="small-red-link">Launch the App ></a></h2>
+
 
                 <p>Over the summer of 2013, I worked as a User Experience Design intern at <a href="http://www.viget.com/" target="_blank">Viget Labs</a> in Boulder, CO. Part of Viget's internship program required the interns in each of the company's three offices collaborate on a group project.</p>
 

@@ -17,14 +17,16 @@
 
 
 
-        <a class="next-arrow right" href="battleofthehands">
+        <a class="next-arrow right" href="oums">
             <i class="icon-right-open"></i>
+            <span>OUMS</span>
         </a>
 
 
         <section class="workItem caseStudy">
-
-                <div class="previewContainer mainHighlight" style="margin-top:70px;">
+                <h1>Reach Web Solutions</h1>
+                <h2>Responsive Design, Front-End Development, CSS3 <a href="http://www.reachws.com/" target="_blank" class="small-red-link">Launch Site</a></h2>
+                <div class="previewContainer mainHighlight">
                     <div class="shadow">
 
                             <img src="../images/browserTop.svg" alt="top of browser">
@@ -32,8 +34,7 @@
 
                     </div>
                 </div>
-                <h1><span>Reach Web Solutions</span></h1>
-                <h2>Responsive Design, Visual Design, Front-End Development, CSS3 <a href="http://www.reachws.com/" target="_blank" class="small-red-link">Launch Site</a></h2>
+
 
                 <p>Reach Web Solutions is a new agency specializing in web apps that I co-founded in the fall of 2013. As Creative Director and Co-Founder of ReachWS, I have been responsible for the visual design and branding of the company.</p>
 

@@ -16,22 +16,24 @@
 
         <a class="next-arrow left" href="battleofthehands">
             <i class="icon-left-open"></i>
+            <span style="top: -9px;">Battle of<br>the Hands</span>
         </a>
         <a class="next-arrow right" href="scripps">
             <i class="icon-right-open"></i>
+            <span style="top: -9px;">Scripps Redesign</span>
         </a>
 
 
         <section class="workItem caseStudy">
-
+                <h1>Vote Voice</h1>
+                <h2> UX Design, Front-end Dev <a href="voicesite/index.php" target="_blank"class="small-red-link">Launch Site</a></h2>
                 <div class="previewContainer mainHighlight">
                     <div class="shadow">
                             <img src="../images/browserTop.svg" alt="top of browser">
                             <img class="second" src="../images/voice/voice.png" alt="Vote Voice Screenshot">
                     </div>
                 </div>
-                <h1><span>Vote Voice</span></h1>
-                <h2> UX Design, Front-end Dev <a href="voicesite/index.php" target="_blank"class="small-red-link">Launch Site</a></h2>
+
 
                 <p>Being my first responsive site, I learned about designing for many different devices and using media queries to change each page's layout via CSS. I also implemented some CSS3 animations for the clouds on the homepage and learned more about new 3D transforms.</p>
 
