@@ -3,16 +3,16 @@
 
                         <ul class="footerNav">
                             <li>
-                                <a href="<?php if($workPiece === true):?>../<?php endif;?>index" class="">home</a>
+                                <a href="/index" class="">home</a>
                             </li>
                             <li>
-                                <a href="<?php if($workPiece === true):?>../<?php endif;?>work" class="">work</a>
+                                <a href="/work" class="">work</a>
                             </li>
                             <li>
-                                <a href="<?php if($workPiece === true):?>../<?php endif;?>profile" class="">profile</a>
+                                <a href="/profile" class="">profile</a>
                             </li>
                             <li>
-                                <a href="<?php if($workPiece === true):?>../<?php endif;?>contact" class="">contact</a>
+                                <a href="/contact" class="">contact</a>
                             </li>
                             <!-- <li>
                                 <a href="#" class="">blog</a>
@@ -53,9 +53,9 @@
 
 
 
-                <script src="<?php if($workPiece === true):?>../<?php endif;?>js/jquery-1.10.1.js"></script>
-				<script src="<?php if($workPiece === true):?>../<?php endif;?>js/jquery.color-2.1.0.min.js"></script>
-				<script src="<?php if($workPiece === true):?>../<?php endif;?>js/main.js"></script>
+                <script src="/js/jquery-1.10.1.js"></script>
+				<script src="/js/jquery.color-2.1.0.min.js"></script>
+				<script src="/js/main.js"></script>
                 <script>
                   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

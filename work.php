@@ -12,13 +12,7 @@
                 	include_once(($path . "/includes/navbar.php"));
                 ?>
         </header>
-        <div class="workIntro">
-            <h1>What I<span>'</span>ve been working on<span>.<span></h1>
 
-            <p class="center">A few of my most recent projects.</p>
-            <div><i class="icon-down-fat"></i></div>
-
-        </div>
 
 
         <section class="workItem">
