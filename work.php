@@ -5,7 +5,7 @@
             <?php include_once(($path . "/includes/ie.php")); ?>
         </div>
         <div class="regularSite">
-        <header class="smallHeader" style="background: #3888de;">
+        <header class="smallHeader">
             <div class="container">
                 <?php
                 	$activePage = "/work";

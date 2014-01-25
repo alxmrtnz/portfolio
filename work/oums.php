@@ -87,10 +87,6 @@
 
 
 
-        <script>
-        $( document ).ready(function() {
-            $('header').delay('500').animate({backgroundColor: '#65C4E5'}, 1000);
-        });
-        </script>
+
     </body>
 </html>

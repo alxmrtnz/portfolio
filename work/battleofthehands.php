@@ -96,10 +96,6 @@
 
 
 
-        <script>
-        $( document ).ready(function() {
-            $('header').delay('500').animate({backgroundColor: '#405344'}, 1000);
-        });
-        </script>
+
     </body>
 </html>

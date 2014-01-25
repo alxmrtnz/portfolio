@@ -74,8 +74,6 @@
             include_once(($path . "/includes/footer-basic.php"));
         ?>
 
-        <script>
-        $('header').delay('500').animate({backgroundColor: '#14422c'}, 1000);
-        </script>
+
     </body>
 </html>

@@ -6,7 +6,7 @@
         </div>
         <div class="regularSite">
         <div class="wrapper">
-        <header class="smallHeader" style="background: #3888de;">
+        <header class="smallHeader">
             <div class="container">
                 <?php
                 	$activePage = "/contact";
