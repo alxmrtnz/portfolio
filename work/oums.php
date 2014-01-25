@@ -26,8 +26,8 @@
         </a>
 
         <section class="workItem caseStudy">
-                <h1>Ohio University<br>Multimedia Society</h1>
-                <h2> Responsive Design, Visual Design, Wordpress Development <a href="http://ohioums.com/" target="_blank" class="small-red-link">Launch Site</a></h2>
+                <h1 class="OUMStitle">Ohio University<br>Multimedia Society</h1>
+                <h2> Responsive Design, Wordpress Development <a href="http://ohioums.com/" target="_blank" class="small-red-link">Launch Site</a></h2>
                 <div class="previewContainer mainHighlight">
 
 
