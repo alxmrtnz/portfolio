@@ -48,17 +48,17 @@ $pages["/contact"] = "contact";
             <ul>
                 <li>
 
-                    <a href="<?php if($workPiece === true):?>../<?php endif;?>/" class="notActive">home</a>
+                    <a href="/" class="notActive">home</a>
                 </li>
                 <li>
 
-                    <a href="<?php if($workPiece === true):?>../<?php endif;?>work" class="notActive">work</a>
+                    <a href="/work" class="notActive">work</a>
                 </li>
                 <li>
-                    <a href="<?php if($workPiece === true):?>../<?php endif;?>profile" class="">profile</a>
+                    <a href="/profile" class="">profile</a>
                 </li>
                 <li>
-                    <a href="<?php if($workPiece === true):?>../<?php endif;?>contact" class="notActive">contact</a>
+                    <a href="/contact" class="notActive">contact</a>
                 </li>
                 <!--<li>
                     <a href="#" class="notActive">blog</a>

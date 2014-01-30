@@ -17,21 +17,23 @@
 
         <a class="next-arrow left" href="votevoice">
             <i class="icon-left-open"></i>
+            <span>Vote Voice</span>
         </a>
 
         <a class="next-arrow right" href="infographics">
             <i class="icon-right-open"></i>
+            <span>Infographics</span>
         </a>
 
 
 
         <section class="workItem caseStudy">
-
+                <h1>Scripps Redesign</h1>
+                <h2>Research, Visual Design, Development <a target="_blank" href="scrippssite/index.html" class="small-red-link">Launch Redesigned Site</a>  |  <a target="_blank" href="http://scrippsjschool.org/" class="small-red-link">Launch Current Site</a></h2>
                 <div class="previewContainer mainHighlight">
                     <img class="second" src="../images/scripps/scrippsredesign.jpg" alt="E.W. Scripps School of Journalism">
                 </div>
-                <h1><span>Scripps Redesign</span></h1>
-                <h2>Research, Visual Design, Development <a target="_blank" href="scrippssite/index.html" class="small-red-link">Launch Redesigned Site</a>  |  <a target="_blank" href="http://scrippsjschool.org/" class="small-red-link">Launch Current Site</a></h2>
+
 
                 <p>After looking at the current Scripps JSchool website, I decided to redesign it for a class project. As my first step into web design and development, I went through each phase of the design and development process.</p>
 

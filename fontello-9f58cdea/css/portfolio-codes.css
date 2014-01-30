@@ -1,0 +1,16 @@
+
+.icon-crown:before { content: '\29'; } /* ')' */
+.icon-right-open:before { content: '\2f'; } /* '/' */
+.icon-cog:before { content: '\2a'; } /* '*' */
+.icon-award:before { content: '\2c'; } /* ',' */
+.icon-suitcase:before { content: '\28'; } /* '(' */
+.icon-dribbble:before { content: '\21'; } /* '!' */
+.icon-instagramm:before { content: '\23'; } /* '#' */
+.icon-heart:before { content: '\25'; } /* '%' */
+.icon-twitter:before { content: '\24'; } /* '$' */
+.icon-spotify-circled:before { content: '\27'; } /* ''' */
+.icon-menu:before { content: '\e800'; } /* '' */
+.icon-twitter-1:before { content: '\30'; } /* '0' */
+.icon-facebook:before { content: '\2b'; } /* '+' */
+.icon-left-open:before { content: '\2d'; } /* '-' */
+.icon-linkedin:before { content: '\22'; } /* '&quot;' */

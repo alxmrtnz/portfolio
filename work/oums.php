@@ -18,21 +18,23 @@
 
         <a class="next-arrow left" href="reach">
             <i class="icon-left-open"></i>
+            <span>Reach WS</span>
         </a>
         <a class="next-arrow right" href="battleofthehands">
             <i class="icon-right-open"></i>
+            <span style="top: -9px;">Battle of<br>the Hands</span>
         </a>
 
         <section class="workItem caseStudy">
-
+                <h1 class="OUMStitle">Ohio University<br>Multimedia Society</h1>
+                <h2> Responsive Design, Wordpress Development <a href="http://ohioums.com/" target="_blank" class="small-red-link">Launch Site</a></h2>
                 <div class="previewContainer mainHighlight">
 
 
                             <img class="second" src="../images/oums/OUMS-homepage.jpg" alt="Battle of the Hands">
 
                 </div>
-                <h1><span>Ohio University<br>Multimedia Society</span></h1>
-                <h2> Responsive Design, Visual Design, Wordpress Development <a href="http://ohioums.com/" target="_blank" class="small-red-link">Launch Site</a></h2>
+
 
                 <p>Having not been updated since 2010, the Ohio University Multimedia Society’s website was in dire need of a redesign. As president of OUMS, a group of dedicated students interested in design, development, production, animation and technology, I decided to update the group’s web presence and create a sleeker, more easily maintainable site.</p>
 

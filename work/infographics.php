@@ -17,7 +17,9 @@
 
 
         <a class="next-arrow left" href="scripps">
+
             <i class="icon-left-open"></i>
+            <span style="top: -9px;">Scripps Redesign</span>
         </a>
 
 
@@ -29,7 +31,7 @@
 
                 <p>Here you can see a collection of infographic pieces that I've created during my time at Ohio University. Not only have these pieces helped me learn how to organize and visualize data, but the research involved with each piece has contributed to a lot of interesting factoids.</p>
 
-                <h1 style="font-size: 36px; margin-top: 120px;" >Barclays Center, Brooklyn</h1>
+                <h1  >Barclays Center, Brooklyn</h1>
 
                 <div class="imageHolder" style="margin: 25px auto 30px auto;">
                     <img src="../images/infographics/Barclays-Center-small.png" alt="Barclays Center">
@@ -38,7 +40,7 @@
                     </div>
                 </div>
 
-                <h1 style="font-size: 36px; margin-top: 120px;" >Ohio University History</h1>
+                <h1  >Ohio University History</h1>
 
                 <div class="imageHolder" style="margin: 25px auto 30px auto;">
                     <img src="../images/infographics/outimelineCover.png" alt="Ohio University Timeline Infographic">
@@ -47,7 +49,7 @@
                     </div>
                 </div>
 
-                <h1 style="font-size: 36px; margin-top: 120px;" >Cost of Commuting</h1>
+                <h1  >Cost of Commuting</h1>
 
                 <div class="imageHolder" style="margin: 25px auto 30px auto;">
                     <img src="../images/infographics/Cost-of-Commuting-small.png" alt="Cost of Commuting">
@@ -58,7 +60,7 @@
 
 
 
-                <h1 style="font-size: 36px; margin-top: 120px;" >Miguel Cabrera Triple Crown</h1>
+                <h1  >Miguel Cabrera Triple Crown</h1>
 
                 <div class="imageHolder" style="margin: 25px auto 30px auto;">
                     <img src="../images/infographics/Miguel-Cabrera-small.jpg" alt="Miguel Cabrera Triple Crown">
@@ -67,7 +69,7 @@
                     </div>
                 </div>
 
-                <h1 style="font-size: 36px; margin-top: 120px;" >Conflict in the Congo</h1>
+                <h1  >Conflict in the Congo</h1>
 
                 <div class="imageHolder" style="margin: 25px auto 30px auto;">
                     <img src="../images/infographics/Conflict-in-the-Congo-small.jpg" alt="Conflict in the Congo Infographic">

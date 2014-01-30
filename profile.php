@@ -44,8 +44,11 @@
 	                </div>
 
 	                <div class="mainCopy">
-	                    <h1>Hi<span>,</span> my name is Alex<span>.</span></h1>
 
+	                    <h1>Hi<span>,</span> my name is Alex<span>.</span></h1>
+                        <div class="mobileResumeLink">
+                            <a class="mobileResume" href="resume">View Resume</a>
+                        </div>
 	                    <p>I'm a designer and front-end developer with interests in UX and interface design. I love responsive design, web fonts, CSS preprocessing, <a href="https://news.layervault.com/stories" target="_blank">Designer News</a>, and a good burrito.</p>
 
 	                    <p>Over the summer, I interned as a User Experience Designer at <a href="http://www.viget.com/" target="_blank">Viget</a> in Boulder, CO. I currently work part-time for the <a href="http://www.jerseywatch.com/" target="_blank">Jersey Watch Network</a> in Athens, OH and recently co-founded <a href="http://www.reachws.com/" target="_blank">Reach Web Solutions</a>, a web agency specializing in business-critical web applications.</p>
@@ -56,7 +59,7 @@
 
 
 
-	                    <div class="reading">
+	                    <!-- <div class="reading">
 	                        <h1>My Reading List</h1>
 	                        <p>Learning never stops. Below is a list of books I've read or am currently reading to help improve myself as a designer, as a developer, and as a person. Thanks to <a href="http://oykun.com/profile/" target="_blank">Oykun Yilmaz's site</a>, for the idea to keep track. </p>
 
@@ -81,7 +84,7 @@
 	                            </li>
 
 	                        </ul>
-	                    </div><!-- end .reading -->
+	                    </div> end .reading -->
 
 	                </div><!-- end .mainCopy -->
 
