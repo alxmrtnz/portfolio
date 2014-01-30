@@ -1414,10 +1414,41 @@ header.smallHeader{
         position: relative;
         display: inline;
     }
-
+    .skilloverflow{
+        @media screen and (max-width: 640px){
+          margin-bottom: 40px;
+        }
+    }
     .resumeItem{
         margin-bottom: 30px;
         overflow: hidden;
+
+        &.award, &.skill{
+            float: left;
+            width: 50%;
+            .left{
+                width: 100%;
+                @media screen and (max-width: $first-break){
+                    display: block;
+                }
+            }
+            @media screen and (max-width: 640px){
+               float: none;
+               width: 100%;
+               margin-bottom: 0px;
+            }
+            h4{
+                margin-bottom: 15px;
+            }
+        }
+        &.skill{
+            h3{
+                font-family: 'Muli', sans-serif;
+                font-size: 14px;
+                font-style: italic;
+            }
+        }
+
 
     }
     .left, .right{

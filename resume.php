@@ -226,7 +226,90 @@
 
                         </div><!-- end .resumeItem -->
 
-                        <!-- <h2><i class="icon-award"></i>   Honors &amp; Awards</h2> -->
+
+                        <div class="skilloverflow" style="overflow: hidden; ">
+                         <h2><i class="icon-cog"></i>   Skills</h2>
+
+                            <div class="resumeItem skill">
+                                <div class="left">
+                                     <h3 style="line-height: 24px;">Proficient in</h3>
+
+
+                                    <ul>
+                                        <li>Adobe Creative Suite</li>
+                                        <li>UI,UX Design</li>
+                                        <li>HTML5, SASS/CSS</li>
+                                        <li>jQuery, JavaScript</li>
+
+                                        <li>Wordpress</li>
+                                        <li>Git, GitHub</li>
+
+                                    </ul>
+                                </div>
+
+
+                            </div><!-- end .resumeItem -->
+
+                            <div class="resumeItem skill">
+                                <div class="left">
+                                     <h3 style="line-height: 24px;">Knowledge of</h3>
+
+
+                                    <ul>
+                                        <li>ExpressionEngine</li>
+                                        <li>PHP</li>
+                                        <li>Django, Python</li>
+                                        <li>jQuery</li>
+
+
+
+                                    </ul>
+                                </div>
+
+
+                            </div><!-- end .resumeItem -->
+                        </div>
+
+
+
+                       <h2><i class="icon-award"></i>   Honors &amp; Awards</h2>
+                       <div class="resumeItem award">
+                           <div class="left">
+                                <h3 style="line-height: 24px;">Pepsi Leader Scholarship</h3>
+                               <h4>Fall 2013 - Spring 2014</h4>
+                           </div>
+
+
+                       </div><!-- end .resumeItem -->
+
+                       <div class="resumeItem award">
+                           <div class="left">
+                                <h3 style="line-height: 24px;">College of Communication Scholarship</h3>
+                               <h4>Fall 2012 - Present</h4>
+                           </div>
+
+
+                       </div><!-- end .resumeItem -->
+
+                       <div class="resumeItem award">
+                           <div class="left">
+                                <h3 style="line-height: 24px;">Latino Heritage Leadership Award</h3>
+                               <h4>Spring 2012</h4>
+                           </div>
+
+
+                       </div><!-- end .resumeItem -->
+
+                       <div class="resumeItem award">
+                           <div class="left">
+                                <h3 style="line-height: 24px;">King-Chavez-Parks Scholarship Award</h3>
+                               <h4>Fall 2010 - Present</h4>
+                           </div>
+
+
+                       </div><!-- end .resumeItem -->
+
+
 
 
 

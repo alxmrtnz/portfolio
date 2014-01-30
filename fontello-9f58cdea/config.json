@@ -1,0 +1,100 @@
+{
+  "name": "portfolio",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "186dec7a13156bbe2550790c158fb85d",
+      "css": "crown",
+      "code": 41,
+      "src": "fontelico"
+    },
+    {
+      "uid": "d73eceadda1f594cec0536087539afbf",
+      "css": "heart",
+      "code": 37,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e99461abfef3923546da8d745372c995",
+      "css": "cog",
+      "code": 42,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ab656e280958018a7859eba9a1eabbc7",
+      "css": "award",
+      "code": 44,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5ccf1ed249fd9d723ec1ce8629a9f507",
+      "css": "suitcase",
+      "code": 40,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "199c44bca402ec5a6351f75ba5228375",
+      "css": "dribbble",
+      "code": 33,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagramm",
+      "code": 35,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e9107949dd6c9e8ab2b29ae07156e38c",
+      "css": "linkedin",
+      "code": 34,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 36,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "067edf3e1f6458e782d0254e63eb5eb6",
+      "css": "spotify-circled",
+      "code": 39,
+      "src": "entypo"
+    },
+    {
+      "uid": "c55fdf978f617992b43ee7cbaa6ef87e",
+      "css": "menu",
+      "code": 59392,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "ec3648a34c41b70671dc38dbb72deb04",
+      "css": "twitter-1",
+      "code": 48,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "53d4dc777eeba379412efba3ee1cac9e",
+      "css": "facebook",
+      "code": 43,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "c0a07aca383ff2a164a4d691fa46e35c",
+      "css": "left-open",
+      "code": 45,
+      "src": "elusive"
+    },
+    {
+      "uid": "dc4a03854ef986d64565143bea4241aa",
+      "css": "right-open",
+      "code": 47,
+      "src": "elusive"
+    }
+  ]
+}
