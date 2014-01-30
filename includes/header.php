@@ -34,34 +34,38 @@
              $title = 'Alex Martinez | Web Designer &amp; Front-End Developer';
              break;
         case 'profile.php':
-             $title = 'Alex Martinez | Profile';
+             $title = 'Profile | Alex Martinez';
              break;
         case 'contact.php':
-             $title = 'Alex Martinez | Contact';
+             $title = 'Contact | Alex Martinez';
              break;
         case 'work.php':
-             $title = 'Alex Martinez | Work';
+             $title = 'Work | Alex Martinez';
              break;
         case 'reach.php':
-             $title = 'Alex Martinez | Reach Web Solutions';
+             $title = 'Reach Web Solutions | Alex Martinez';
              break;
         case 'scripps.php':
-             $title = 'Alex Martinez | Scripps JSchool Redesign';
+             $title = 'Scripps JSchool Redesign | Alex Martinez';
              break;
         case 'votevoice.php':
-             $title = 'Alex Martinez | Vote Voice';
+             $title = 'Vote Voice | Alex Martinez';
              break;
 
         case 'battleofthehands.php':
-             $title = 'Alex Martinez | Battle of the Hands';
+             $title = 'Battle of the Hands | Alex Martinez';
              break;
         case 'infographics.php':
-             $title = 'Alex Martinez | Infographics';
+             $title = 'Infographics | Alex Martinez';
              break;
         case 'oums.php':
-             $title = 'Alex Martinez | Ohio University Multimedia Society';
+             $title = 'Ohio University Multimedia Society | Alex Martinez';
+             break;
+        case 'resume.php':
+             $title = 'Resume | Alex Martinez';
              break;
         }
+
         echo '<title>'.$title.'</title>';
 
         $path = $_SERVER['DOCUMENT_ROOT'];
